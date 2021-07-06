@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Core</string>
+    <string name="core_creator">Core Creator</string>
+<!--    <string name="login_button">Button</string>-->
+    <string name="login">Login</string>
+    <string name="mainPic">yo</string>
+    <string name="signup_button">Signup</string>
+    <string name="descriptionText">A guide to gaining abdominal strength and aesthetics from beginner to expert </string>
+    <string name="loginActivityText">Login page</string>
+    <string name="signupActivityText">Signup page</string>
+    <string name="dashboardActivityText">TextView</string>
 </resources>

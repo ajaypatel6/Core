@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Core">
+        <activity android:name=".database.Firestore"></activity>
+        <activity android:name=".settings" />
+        <activity android:name=".dashboard" />
+        <activity android:name=".Signup" />
+        <activity android:name=".Login" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

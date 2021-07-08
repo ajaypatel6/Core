@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "33993475478",
+    "project_id": "core-3ede4",
+    "storage_bucket": "core-3ede4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33993475478:android:7578b8195a1d92c88089b7",
+        "android_client_info": {
+          "package_name": "ca.ajaypatel.core"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33993475478-c5kpnm003ld6oi36hqek1h3mvakph9me.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCy8MnwNnSL9bsPUPi8IR2oGLQRkmd5EQ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "33993475478-c5kpnm003ld6oi36hqek1h3mvakph9me.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

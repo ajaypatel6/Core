@@ -6,7 +6,18 @@
     <string name="mainPic">yo</string>
     <string name="signup_button">Signup</string>
     <string name="descriptionText">A guide to gaining abdominal strength and aesthetics from beginner to expert </string>
-    <string name="loginActivityText">Login page</string>
-    <string name="signupActivityText">Signup page</string>
-    <string name="dashboardActivityText">TextView</string>
+    <string name="loginActivityText">Login to your Profile</string>
+    <string name="signupActivityText">Signup for a new Account</string>
+    <string name="dashboardActivityText">Main page for App</string>
+    <string name="loginCheckbox">Remember me?</string>
+    <string name="loginActivityButton">Login</string>
+    <string name="loginActivitySignup">Sign up</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_password">Enter password</string>
+    <string name="i_forgot_my_password">I forgot my password</string>
+    <string name="signupActivitySignup">Signup</string>
+    <string name="signupName">Name</string>
+    <string name="re_enter_password">Re-enter Password</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
 </resources>

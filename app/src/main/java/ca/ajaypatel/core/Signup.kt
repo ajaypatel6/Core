@@ -27,10 +27,11 @@ class Signup : AppCompatActivity() {
         setContentView(R.layout.activity_signup)
 
         this.supportActionBar?.hide();
+        auth = FirebaseAuth.getInstance()
 
         signupPageButton.setOnClickListener() {
-            vibrateDevice(this)
-//            registerUser()
+//            vibrateDevice(this)
+            registerUser()
 
         }
     }

@@ -10,9 +10,88 @@
         android:id="@+id/dashboardActivityText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:text="@string/dashboardActivityText"
+        android:textColor="#AA00FF"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <Button
+        android:id="@+id/levelOneButton"
+        android:layout_width="314dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="200dp"
+        android:text="@string/level_one"
+        android:textAllCaps="false"
+        app:backgroundTint="#F1BDBD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/levelFourButton"
+        android:layout_width="314dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="64dp"
+        android:textAllCaps="false"
+        android:visibility="invisible"
+
+        android:layout_marginBottom="32dp"
+        android:text="@string/level_four"
+        app:backgroundTint="#800000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/levelThreeButton"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/levelThreeButton"
+        android:layout_width="314dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/level_three"
+        app:backgroundTint="#FF0000"
+        android:textAllCaps="false"
+        android:visibility="invisible"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/levelTwoButton" />
+
+    <Button
+        android:id="@+id/levelTwoButton"
+        android:layout_width="314dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/level_two"
+        app:backgroundTint="#F08080	"
+        android:textAllCaps="false"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/levelOneButton" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="385dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/mainDescription"
+        app:layout_constraintBottom_toTopOf="@+id/levelOneButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dashboardActivityText" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

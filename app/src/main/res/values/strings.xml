@@ -8,7 +8,7 @@
     <string name="descriptionText">A guide to gaining abdominal strength and aesthetics from beginner to expert </string>
     <string name="loginActivityText">Login to your Profile</string>
     <string name="signupActivityText">Signup for a new Account</string>
-    <string name="dashboardActivityText">Main page for App</string>
+    <string name="dashboardActivityText">Level Up your Core</string>
     <string name="loginCheckbox">Remember me?</string>
     <string name="loginActivityButton">Login</string>
     <string name="loginActivitySignup">Sign up</string>
@@ -20,4 +20,10 @@
     <string name="re_enter_password">Re-enter Password</string>
     <string name="password">Password</string>
     <string name="email">Email</string>
+    <string name="level_one">Level One</string>
+    <string name="level_two">Level Two</string>
+    <string name="level_three">Level Three</string>
+    <string name="level_four">Level Four</string>
+    <string name="mainDescription">There are 4 levels (they will appear on completion of prior levels. The first level can be done by nearly anybody, it is beginner friendly. The goal is to
+    strengthen the muscles involved in the core and to help you get your ideal mid-section</string>
 </resources>

@@ -27,5 +27,9 @@ class dashboard : AppCompatActivity() {
         levelTwoButton.visibility=View.GONE;
         levelThreeButton.visibility=View.GONE;
         levelFourButton.visibility=View.GONE;
+
+        levelOneButton.setOnClickListener(){
+            startActivity(Intent(this, LevelOne::class.java))
+        }
     }
 }

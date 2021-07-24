@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#A8C7E3"
+
     tools:context=".dashboard">
 
     <TextView
@@ -38,11 +40,10 @@
         android:layout_width="314dp"
         android:layout_height="70dp"
         android:layout_marginTop="64dp"
-        android:textAllCaps="false"
-        android:visibility="invisible"
-
         android:layout_marginBottom="32dp"
         android:text="@string/level_four"
+
+        android:textAllCaps="false"
         app:backgroundTint="#800000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -57,9 +58,8 @@
         android:layout_height="70dp"
         android:layout_marginTop="64dp"
         android:text="@string/level_three"
-        app:backgroundTint="#FF0000"
         android:textAllCaps="false"
-        android:visibility="invisible"
+        app:backgroundTint="#FF0000"
 
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
@@ -72,9 +72,8 @@
         android:layout_height="70dp"
         android:layout_marginTop="64dp"
         android:text="@string/level_two"
-        app:backgroundTint="#F08080	"
         android:textAllCaps="false"
-        android:visibility="invisible"
+        app:backgroundTint="#F08080	"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"

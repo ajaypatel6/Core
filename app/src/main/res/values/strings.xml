@@ -26,4 +26,6 @@
     <string name="level_four">Level Four</string>
     <string name="mainDescription">There are 4 levels (they will appear on completion of prior levels. The first level can be done by nearly anybody, it is beginner friendly. The goal is to
     strengthen the muscles involved in the core and to help you get your ideal mid-section</string>
+    <string name="level_one_text">Level One</string>
+    <string name="level_one_description">To begin, you need 21 days. Follow this Athlean-X video and track your progress here. The reason for this step is to start waking up the muscles in your core.</string>
 </resources>

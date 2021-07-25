@@ -25,7 +25,35 @@
     <string name="level_three">Level Three</string>
     <string name="level_four">Level Four</string>
     <string name="mainDescription">There are 4 levels (they will appear on completion of prior levels. The first level can be done by nearly anybody, it is beginner friendly. The goal is to
-    strengthen the muscles involved in the core and to help you get your ideal mid-section</string>
+    strengthen the muscles involved in the core and to help you get your ideal mid-section.</string>
     <string name="level_one_text">Level One</string>
-    <string name="level_one_description">To begin, you need 21 days. Follow this Athlean-X video and track your progress here. The reason for this step is to start waking up the muscles in your core.</string>
+    <string name="level_one_description">To begin, you need 21 days. Follow this Athlean-X video and track your progress here. The reason for this step is to start waking up the muscles in your core. After these 21 days, you will see significant differences in your core. Take some before/after pictures</string>
+    <string name="level_two_text">Level Two</string>
+    <string name="level_two_description">The fact is nutrition plays a key role to show your core as well as overall health. You MUST get your nutrition in order before you imagine a strong core. </string>
+    <string name="levelTwoFactOne">Use intermittent fasting. Try eating within an 8 hour window only</string>
+    <string name="levelTwoFactTwo">Eat more Protein.</string>
+    <string name="levelTwoFactThree">Drink more water. Can never get enough, it is only toxic at VERY high normals</string>
+    <string name="levelTwoFactFour">Track your calories. Track with an app like myfitnesspal</string>
+    <string name="levelTwoFactFive">Cut out sugars. The absolute worst thing for you. Literal poison. You will feel far better</string>
+    <string name="_1">1</string>
+    <string name="_5">5</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_9">9</string>
+    <string name="_7">7</string>
+    <string name="_2">2</string>
+    <string name="_6">6</string>
+    <string name="_21">21</string>
+    <string name="_16">16</string>
+    <string name="_10">10</string>
+    <string name="_18">18</string>
+    <string name="_13">13</string>
+    <string name="_12">12</string>
+    <string name="_14">14</string>
+    <string name="_20">20</string>
+    <string name="_19">19</string>
+    <string name="_8">8</string>
+    <string name="_17">17</string>
+    <string name="_15">15</string>
+    <string name="_11">11</string>
 </resources>

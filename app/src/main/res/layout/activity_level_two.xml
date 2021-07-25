@@ -8,4 +8,95 @@
 
     tools:context=".LevelTwo">
 
+
+    <TextView
+        android:id="@+id/levelTwoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/level_two_text"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:id="@+id/levelTwoDescription"
+        android:layout_width="403dp"
+        android:layout_height="56dp"
+        android:gravity="center_horizontal"
+        android:text="@string/level_two_description"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/levelTwoText"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <TextView
+        android:id="@+id/levelTwoFactOne"
+        android:layout_width="390dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="150dp"
+        android:gravity="center_horizontal"
+        android:text="@string/levelTwoFactOne"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/levelTwoDescription" />
+
+    <TextView
+        android:id="@+id/levelTwoFactTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center_horizontal"
+        android:text="@string/levelTwoFactTwo"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/levelTwoFactOne" />
+
+    <TextView
+        android:id="@+id/levelTwoFactThree"
+        android:layout_width="382dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center_horizontal"
+        android:text="@string/levelTwoFactThree"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/levelTwoFactTwo" />
+
+    <TextView
+        android:id="@+id/levelTwoFactFour"
+        android:layout_width="387dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center_horizontal"
+        android:text="@string/levelTwoFactFour"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/levelTwoFactThree" />
+
+    <TextView
+        android:id="@+id/levelTwoFactFive"
+        android:layout_width="388dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center_horizontal"
+        android:text="@string/levelTwoFactFive"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/levelTwoFactFour"
+        app:layout_constraintVertical_bias="0.0" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
